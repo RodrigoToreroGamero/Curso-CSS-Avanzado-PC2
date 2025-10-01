@@ -1,0 +1,18 @@
+body {
+  background-color: white;
+}
+
+.contenedor, h1, h2 {
+  background-color: rgb(100, 100, 255);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  color: rgb(255, 100, 50);
+}
+
+.contenedor, p {
+  background-color: rgb(200, 200, 200);
+  border-radius: 10px;
+  font-family: Times, serif;
+  color: black;
+
+}
