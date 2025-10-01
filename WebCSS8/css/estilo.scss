@@ -1,0 +1,27 @@
+@use 'variables' as v;
+
+@mixin estilo-fondo1($c: #ffffff) {
+    background-color: $c;
+}
+
+body {
+    @include estilo-fondo1(v.$color-fondo);
+}
+
+.contenedor {
+    background-color: $color-contenedor;
+    border-radius: v.$borde;
+    
+    h1, h2 {
+        font-family: v.$font1;
+        color: v.$color-titulo;
+    }
+
+    p {
+        font-family: v.$font2;
+        color: v.$color-parrafo;
+    }
+}
+
+
+
